@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-num = input("Give me a number: ").strip()
+num = input("Give me a number: ")
 try:
     num = float(num)
     if (num.is_integer()):
