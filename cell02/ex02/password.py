@@ -2,7 +2,7 @@
 
 password = "This is a password"
 
-if (input() == password):
+if (input().strip() == password):
     print("ACCESS GRANTED")
 else:
     print("ACCESS DENIED")
