@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 
-num = input("Give me a number: ")
-try:
-    num = float(num)
-    if (num.is_integer()):
-        raise Exception()
-    else:
-        print("This number is a decimal.")
-except:
+num = float(input("Give me a number: "))
+if (num.is_integer()):
     print("This number is an integer.")
+else:
+    print("This number is a decimal.")
