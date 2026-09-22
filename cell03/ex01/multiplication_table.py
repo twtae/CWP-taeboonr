@@ -2,5 +2,7 @@
 
 n = int(input("Enter a number\n"))
 
-for i in range(0, 10):
+i = 0
+while i <= 9:
     print(f"{i} x {n} = {i * n}")
+    i = i + 1
